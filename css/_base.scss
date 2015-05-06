@@ -5,7 +5,7 @@ img {
 }
 
 h1 {
-    max-width: 50%;
+    width: 50%;
     max-height: 20px;
     margin-top: 0;
     padding-left: 40px;
@@ -15,13 +15,36 @@ h1 {
 
 h2 {
     text-align: right;
-    margin-right: 400px;
-    margin-top: 80px;
+    margin-right: 450px;
+    margin-top: 70px;
+    width: 62%;
 }
 
 h3 {
     text-align: right;
     margin-right: 360px;
     margin-top: 15px;
-    
+    width: 65%;
+}
+
+body {
+    background-color: #fff;
+    //box-sizing: border-box;
+    @include body-font-light;
+    font-size: base-font-size;
+    //margin: 0 auto;
+    //max-width: 600px;
+    //padding: 0 10px;
+    //width: 100%;
+}
+
+img {
+    max-width: 100%;
+}
+
+h2, h3 {
+    @include headline-font;
+    line-height: 1;
+    overflow: hidden;
+    font-size: 25px;
 }
