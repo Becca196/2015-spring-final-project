@@ -48,3 +48,19 @@ h2, h3 {
     overflow: hidden;
     font-size: 25px;
 }
+
+h4 {
+    @include headline-font;
+    line-height: 0;
+    margin: 80px 0 0 40px;
+    font-size: 30px
+}
+
+p {
+    text-align: left;
+    margin-right: 30%;
+}
+    
+
+
+
