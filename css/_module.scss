@@ -58,6 +58,10 @@ nav[role="navigation"] a {
     margin-left: 30px;
 }
 
+.main-portraits1 img {
+    align-content: center;
+    margin-left: 80px;
+}
 
 .contentinfo {
     background-color: #2b2b2b;
@@ -68,7 +72,7 @@ box {
     max-width: 100%;
     display: inline-block;
     background-color: #70decd;
-    padding: 8px 0px 15px 20px;
+    padding: 0 0 15px 20px;
     margin: 10%;
     align-content: center;
 }
@@ -78,6 +82,15 @@ box1 {
     display: inline-block;
     background-color: #70decd;
     padding: 12px 0px 15px 20px;
+    margin: 25px 0 0 0;
+    align-content: center;
+}
+
+box2 {
+    max-width: 100%;
+    display: inline-block;
+    background-color: #70decd;
+    padding: 12px 0px 15px 200px;
     margin: 25px 0 0 0;
     align-content: center;
 }
